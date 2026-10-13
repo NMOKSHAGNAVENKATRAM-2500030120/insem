@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Course Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Online Course Education</h1>
+    <nav>
+      <a href="#signup">Signup</a>
+      <a href="#categories">Categories</a>
+      <a href="#payment">Payment</a>
+      <a href="#results">Results</a>
+      <a href="#receipt">Receipt</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="box" id="signup">
+      <h2>Signup</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <div class="box" id="categories">
+      <h2>Categories</h2>
+      <ul>
+        <li>Web Development</li>
+    
+        <li>Machine Learning</li>
+
+      </ul>
+    </div>
+    <div class="box" id="payment">
+      <h2>Payment</h2>
+      <form>
+        <select required>
+          <option value="">Select Course</option>
+          <option>Web Development - 150000</option>
+          <option>Machine Learning - 200000</option>
+        </select>
+        <input type="text" placeholder="Card Number" required>
+        <input type="text" placeholder="Expiry Date (MM/YY)" required>
+        <input type="text" placeholder="CVV" required>
+        <button type="submit">Pay Now</button>
+      </form>
+    </div>
+    <div class="box" id="receipt">
+      <h2>Receipt</h2>
+      <p><strong>Course:</strong> Web Development</p>
+      <p><strong>Amount Paid:</strong> $99</p>
+      <p><strong>Transaction ID:</strong> #123456789</p>
+      <p><strong>Date:</strong> 13 Oct 2026</p>
+      <p><strong>Status:</strong> Payment Successful ✅</p>
+    </div>
+  </div>
+</body>
+</html>
